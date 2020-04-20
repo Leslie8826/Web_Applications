@@ -24,8 +24,8 @@ insert into Employees values (2, 'Paul', ' Goge', 140000);
 insert into Employees values (3, 'Mary', 'Franck', 370000),
 (4, 'James', 'Williams', 189000);
 
+
 -- Test to check if data were inserted
 select * from Employees;
-
 
 SELECT id, firstName, lastName, yearlySalary FROM Employees;
