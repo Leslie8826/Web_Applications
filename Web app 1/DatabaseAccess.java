@@ -81,6 +81,6 @@ public class DatabaseAccess extends HttpServlet{
          } catch(SQLException se) {
             se.printStackTrace();
          }
-      } //end try
+      }
    }
 } 
