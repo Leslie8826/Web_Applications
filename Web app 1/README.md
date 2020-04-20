@@ -7,4 +7,5 @@ Technologies used:
  - Java Database Connectivity API
  - Web client
 
+The app can be accessible at on your local machine:
 http://localhost:8080/DatabaseAccess/DatabaseAccess/
