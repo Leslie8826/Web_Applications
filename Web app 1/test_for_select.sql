@@ -1,5 +1,5 @@
-// Below are the SQL statements for the database creation, the single table of employees 
-// and the insertion of data in that table create database test_for_select;
+-- Below are the SQL statements for the creation of the MySQL database as well as the single table of employees 
+-- and the insertion of data in that table create database test_for_select;
 
 use test_for_select;
 
