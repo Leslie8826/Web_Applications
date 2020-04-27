@@ -7,4 +7,4 @@ Technologies used:
     Web client
 
 The app can be accessible at on your local machine:
-http://localhost:8080/WebApp_Palindrome/form_input.html
+<br> http://localhost:8080/WebApp_Palindrome/form_input.html
