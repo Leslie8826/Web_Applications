@@ -11,11 +11,11 @@ public class DatabaseAccess extends HttpServlet{
 	   Connection conn = null;
 	   Statement stmt = null;
 	   
-      // JDBC driver name and database URL 
+      // JDBC driver definition 
 	  final String JDBC_DRIVER = "com.mysql.jdbc.Driver"; 
       final String DB_URL="jdbc:mysql://localhost:3306/test_for_select"; // test_for_select is the name of the database
       
-      //  information of Database
+      // Information of Database
       final String USER = "root";
       final String PASS = "put password here";
       
@@ -34,7 +34,7 @@ public class DatabaseAccess extends HttpServlet{
          "<h1 align = \"center\">" + title + "</h1>\n");
       
       try {
-         // Register JDBC driver
+         // Load a JDBC driver implementation
          Class.forName("com.mysql.jdbc.Driver");
 
          // Open a connection to mysql database
