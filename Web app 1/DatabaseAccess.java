@@ -34,7 +34,7 @@ public class DatabaseAccess extends HttpServlet{
          "<h1 align = \"center\">" + title + "</h1>\n");
       
       try {
-         // Load a JDBC driver implementation
+         // Register a JDBC driver
          Class.forName("com.mysql.jdbc.Driver");
 
          // Open a connection to mysql database
